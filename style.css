@@ -222,3 +222,57 @@ footer {
     min-height: 60px;
   }
 }
+.price-list {
+  margin-top: 28px;
+}
+
+.price-list .accent-line {
+  height: auto;
+  min-height: 100%;
+  align-self: stretch;
+}
+
+.price-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.price-title {
+  margin: 0 0 50px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.prices {
+  display: grid;
+  gap: 7px;
+}
+
+.prices div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.prices span {
+  color: var(--white);
+}
+
+.prices b {
+  flex: 0 0 auto;
+  color: var(--yellow);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.price-more {
+  margin: 13px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 500;
+}
