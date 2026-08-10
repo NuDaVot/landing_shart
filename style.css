@@ -84,7 +84,7 @@ a {
 .accent-line {
   width: 5px;
   min-width: 5px;
-  height: 50px;
+  height: 43px;
   background: var(--yellow);
   border-radius: 99px;
 }
@@ -250,6 +250,14 @@ footer {
 }
 
 .prices div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.delivery-content span {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
