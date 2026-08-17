@@ -1,0 +1,7 @@
+name = "landing-shart"
+compatibility_date = "2026-08-17"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "shartprokat-analytics"
+database_id = "ac34c8bb-16ce-4126-a129-140928a7bcc3"
